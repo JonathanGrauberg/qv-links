@@ -91,7 +91,7 @@ export function LinktreeProfile() {
             mates · termos · accesorios
           </p>
           <div className="flex flex-col gap-2">
-            <LinkButton href="https://quedeverde.com.ar/" variant="outline">WEBSITE</LinkButton>
+            <LinkButton href="https://qv-web.vercel.app/" variant="outline">WEBSITE</LinkButton>
             <LinkButton href="https://www.instagram.com/quedeverde.pna/" variant="outline">INSTAGRAM</LinkButton>
             <LinkButton 
               href="https://wa.me/5493436959359?text=Hey!%20Hola,%20me%20interesan%20tus%20productos%20😊" 
