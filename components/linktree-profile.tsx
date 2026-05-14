@@ -91,7 +91,7 @@ export function LinktreeProfile() {
             mates · termos · accesorios
           </p>
           <div className="flex flex-col gap-2">
-            <LinkButton href="https://qv-web.vercel.app/" variant="outline">WEBSITE</LinkButton>
+            <LinkButton href="https://quedeverde.shop/" variant="outline">WEBSITE</LinkButton>
             <LinkButton href="https://www.instagram.com/quedeverde.pna/" variant="outline">INSTAGRAM</LinkButton>
             <LinkButton 
               href="https://wa.me/5493436959359?text=Hey!%20Hola,%20me%20interesan%20tus%20productos%20😊" 
@@ -133,17 +133,9 @@ export function LinktreeProfile() {
           </form>
         </section>
 
-        {/* Links adicionales */}
-        <section style={{ background: "#dcceb6" }} className="rounded-2xl p-4">
-          <div className="flex flex-col gap-2">
-            <LinkButton href="#" variant="dark">Catálogo 2026</LinkButton>
-            <LinkButton href="#" variant="darkOutline">Novedades</LinkButton>
-          </div>
-        </section>
-
         {/* Promo */}
-        <div className="grid grid-cols-2 gap-2">
-          <div style={{ background: "#dcceb6" }} className="rounded-2xl p-4 flex flex-col items-center text-center">
+        <div >
+          {/*<div style={{ background: "#dcceb6" }} className="rounded-2xl p-4 flex flex-col items-center text-center">
             <img src="/qv-icono-oscuro.png" alt="Icono" className="h-8 w-8 mb-2 object-contain" />
             <p className="text-[9px] uppercase tracking-widest mb-1" style={{ color: "#6b5e4e" }}>Usá el código</p>
             <p className="text-sm font-semibold tracking-wide mb-3" style={{ color: "#11332c" }}>QVERDE26</p>
@@ -153,13 +145,49 @@ export function LinktreeProfile() {
             >
               Shop Now
             </button>
-          </div>
-          <div style={{ background: "#275140" }} className="rounded-2xl p-4 flex items-center justify-center">
-            <p className="font-serif text-2xl leading-tight text-center font-normal" style={{ color: "#dcceb6" }}>
-              15% off<br />1ra compra.
-            </p>
-          </div>
+          </div>*/}
+          <a
+  href="https://quedeverde.shop"
+  target="_blank"
+  rel="noopener noreferrer"
+  style={{ background: "#fde047" }}
+  className="rounded-2xl p-5 flex items-center justify-center text-center shadow-lg cursor-pointer hover:scale-[1.03] transition-transform"
+>
+  <p
+    className="font-serif text-3xl tracking-wide"
+    style={{ color: "#1e3a8a" }}
+  >
+    🔥 HOT SALE
+  </p>
+</a>
         </div>
+
+        {/* Links adicionales */}
+<section style={{ background: "#dcceb6" }} className="rounded-2xl p-4">
+  <div className="flex flex-col gap-2">
+    
+    <div className="relative">
+      <LinkButton href="#" variant="dark">
+        Catálogo 2026
+      </LinkButton>
+      <span className="absolute right-3 top-1/2 -translate-y-1/2 text-[9px] px-2 py-0.5 rounded-full bg-black/20 text-[#11332c] font-semibold tracking-widest">
+        Próximamente
+      </span>
+    </div>
+
+    <div className="relative">
+      <LinkButton href="#" variant="darkOutline">
+        Novedades
+      </LinkButton>
+      <span className="absolute right-3 top-1/2 -translate-y-1/2 text-[9px] px-2 py-0.5 rounded-full bg-black/20 text-[#275140] font-semibold tracking-widest">
+        Próximamente
+      </span>
+    </div>
+
+  </div>
+</section>
+
+        
 
         {/* Social */}
         <section className="text-center py-2">
